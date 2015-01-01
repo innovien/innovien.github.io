@@ -1,0 +1,119 @@
+/* This is the background image OR background colour - you may choose. */
+.configuration-background
+    background: $background no-repeat center center fixed
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    -o-background-size: cover
+    background-size: cover
+
+/* This is used as the color of the borders of inputs, buttons, and countdown. */
+.configuration-border-color
+    border-color: $font-color
+
+/* This is the font color of the page. */
+.configuration-font-color
+    color: $font-color
+
+/*********** End configuration ***********/ 
+
+html
+    position: relative
+    min-height: 100%
+
+body
+    /* Margin bottom by footer height */
+    margin-bottom: 60px
+
+
+#footer
+    position: absolute
+    bottom: 0
+    width: 100%
+    background: rgba(0, 0, 0, $footer-transparency)
+    height: 56px
+    font-size: 24px
+    padding-top: 10px
+    text-align: center
+    color: white
+
+
+#footer a i.fa
+    color: white
+    margin: 0 20px
+
+*
+    font-family: 'Lato', sans-serif
+    font-weight: 400
+
+
+.landing
+    margin-top: 40px
+    text-align: center
+
+
+.landing h1
+    font-family: 'Pacifico', cursive
+    font-size: 60px
+
+button,
+input
+    border: 1px solid
+    padding: 5px
+    background: transparent
+    cursor: pointer
+    border-radius: 0
+    font-size: 16px
+
+button.information-toggle
+    margin-top: 60px
+    padding: 10px
+    text-transform: uppercase
+
+#validation-error,
+#signed-up
+    display: none
+
+.countdown
+    margin-top: 80px
+    font-size: 24px
+
+.countdown > div
+    padding: 0
+
+.countdown .count-container
+    border-right: 1px dashed
+
+.countdown .seconds-count-container
+    border-right: none
+
+.details
+    padding-top: 20px
+    display: none
+    font-size: 20px
+    width: 80%
+    margin: 0 auto
+    line-height: 30px
+
+.details > p,
+.details > form
+    opacity: 0
+    margin-top: 40px
+
+.details > p:first-child
+    margin-top: 0
+
+/* xs */
+@media (max-width: 767px)
+    .landing h1
+        font-size: 40px
+    
+
+    .countdown
+        margin-top: 30px
+    
+
+    button.btn.btn-primary
+        margin-top: 20px
+
+    .countdown .count-container
+        border-right: none
