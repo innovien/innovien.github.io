@@ -60,6 +60,11 @@ body {
   font-size: 60px;
 }
 
+.landing h2 {
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+}
+
 button,
 input {
   border: 1px solid;

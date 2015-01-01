@@ -1,5 +1,5 @@
 // Where should the countdown count to?
-var countTo = '01/15/2015';
+var countTo = '01/02/2015';
 
 /** End configuration **/
 
